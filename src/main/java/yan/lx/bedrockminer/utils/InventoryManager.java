@@ -130,7 +130,7 @@ public class InventoryManager {
             return "bedrockminer.fail.missing.redstonetorch";
         }
 
-        if (InventoryManager.getInventoryItemCount(Blocks.SLIME_BLOCK)<1){
+        if (InventoryManager.getInventoryItemCount(Blocks.NETHERRACK)<1){
             return "bedrockminer.fail.missing.slime";
         }
 

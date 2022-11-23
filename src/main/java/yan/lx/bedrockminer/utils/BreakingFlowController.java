@@ -102,17 +102,13 @@ public class BreakingFlowController {
 
     public static void switchOnOff(){
         if (working){
-            Messager.chat("bedrockminer.toggle.off");
+            Messager.actionBar("bedrockminer.toggle.off");
 
             working = false;
         } else {
-            Messager.chat("bedrockminer.toggle.on");
+            Messager.actionBar("bedrockminer.toggle.on");
 
             MinecraftClient minecraftClient = MinecraftClient.getInstance();
-            if (!minecraftClient.isInSingleplayer()){
-
-                Messager.chat("bedrockminer.warn.multiplayer");
-            }
             working = true;
         }
     }

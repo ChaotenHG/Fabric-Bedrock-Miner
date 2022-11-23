@@ -13,7 +13,7 @@ Have the following items ready:
 2. Haste II beacon
 3. Pistons
 4. Redstone torches
-5. Slime blocks
+5. ~~Slime blocks~~ Slime blocks are not needed anymore! use Netherrack instaed!
 
 Right click bedrock **with an empty hand** to switch on/off.
 
@@ -23,3 +23,7 @@ If my mod saves you tons of time, please considering leave me a star.
 
 # Compile
 Checkout to the corresponding Minecraft version and compile following the Fabric wiki.
+
+# Credits
+
+[Thanks to LXYan2333 for this Mod](https://github.com/LXYan2333/Fabric-Bedrock-Miner)

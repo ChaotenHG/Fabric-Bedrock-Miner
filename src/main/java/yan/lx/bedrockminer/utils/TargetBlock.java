@@ -37,7 +37,7 @@ public class TargetBlock {
         if (redstoneTorchBlockPos == null) {
             this.slimeBlockPos = CheckingEnvironment.findPossibleSlimeBlockPos(world, pos);
             if (slimeBlockPos != null) {
-                BlockPlacer.simpleBlockPlacement(slimeBlockPos, Blocks.SLIME_BLOCK);
+                BlockPlacer.simpleBlockPlacement(slimeBlockPos, Blocks.NETHERRACK);
                 redstoneTorchBlockPos = slimeBlockPos.up();
             } else {
                 this.status = Status.FAILED;
@@ -129,7 +129,7 @@ public class TargetBlock {
         if (this.redstoneTorchBlockPos == null) {
             this.slimeBlockPos = CheckingEnvironment.findPossibleSlimeBlockPos(world, blockPos);
             if (slimeBlockPos != null) {
-                BlockPlacer.simpleBlockPlacement(slimeBlockPos, Blocks.SLIME_BLOCK);
+                BlockPlacer.simpleBlockPlacement(slimeBlockPos, Blocks.NETHERRACK);
                 redstoneTorchBlockPos = slimeBlockPos.up();
             } else {
                 this.status = Status.FAILED;
